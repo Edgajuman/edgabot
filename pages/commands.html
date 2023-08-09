@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EdgaBot/Comandos</title>
+  <link rel="icon" href="../danime.png">
+  <link rel="stylesheet" href="commands.css">
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+</head>
+
+<body onload="loaderFunction()">
+
+  <div id="loader">
+    <div class="loading">
+      <span></span>
+    </div>
+  </div>
+
+
+  <div id="page">
+    <nav>
+      <div class="logo noselect">
+        <img class="noselect" src="../danime.png"> EdgaBot Oficial
+      </div>
+
+      <div class="openMenu noselect"><i class="fa fa-bars"></i></div>
+      <ul class="mainMenu noselect">
+        <li><a href="../index.html"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a class="active" href="#"><i class="far fa-list-alt"></i> Comandos</a></li>
+        <li><a href="../pages/about.html"><i class="fas fa-quote-left"></i> Terminos y condiciones</a></li>
+        <li><a href="https://discord.gg/23ayhRann6" target="_none"><i class="fas fa-headset"></i> Soporte</a></li>
+        <li><a class="invite noselect" href="https://dsc.gg/diegobotcoders" target="_none"><i
+              class="fab fa-discord"></i> Invitame</a></li>
+        <div class="closeMenu noselect"><i class="fa fa-times"></i></div>
+      </ul>
+    </nav>
+
+
+
+    <div class="container clear noselect">
+      <div class="row wrapper">
+
+        <span class="collapse" onclick="closeSidePanel()"><i class="fas fa-caret-left"></i></span>
+        <span class="expand" onclick="openSidePanel()"><i class="fas fa-caret-right"></i></span>
+
+        <div class="sidepanel">
+          <div class="divider left"></div>
+
+          <a class="title" href="#introduction">Introducción</a>
+
+          <a class="section" href="#aboutthisbot">Acerca del Bot</a>
+          <a class="section" href="#technology">Tecnología</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#gettingstarted">Guía de inicio</a>
+
+          <a class="section" href="#inbothelp">Ayuda del Bot</a>
+          <a class="section" href="#addingthebot">Invitación al bot</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#commands">Comandos</a>
+
+          <a class="section" href="#anime">Interacción</a>
+          <a class="section" href="#sfw">Moderación</a>
+
+          <div class="divider left"></div>
+
+          <a class="title" href="#premium">Premium</a>
+
+          <div class="space double"></div>
+
+        </div>
+
+        <div class="right-col">
+          <h1 id="introduction">Introducción</h1>
+
+          <p id="aboutthisbot">EdgaBot un Bot multifunciones para tu servidor, cuenta con comandos de moderación y automoderación
+            para mantener seguro tu servidor.</p>
+
+          <h2>Acerca del bot</h2>
+
+          <p id="technology">Este Bot te ofrece multiples comandos y subcomandos de interacción, moderación, inteligencia artificial
+            y minijuegos, esta alojado 24/7 y tiene actualizaciones constantes.</p>
+
+          <h2>Tecnología</h2>
+
+          <p id="gettingstarted">Este Bot esta hecha en varios idiomas y herramientas como: Discord.js, Replit, Autocode y Botghost.<br><br>
+            Este Bot utiliza diferentes APIs que te hacen de tu servidor un lugar mejor y agradable.</p>
+
+          <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+          <h1>Guía de inicio</h1>
+
+          <p id="inbothelp">Aprender a usar a EdgaBot es muy sencillo y practico, no necesitas saberes previos de algun tipo ya que el Bot
+             te ayudara con aquellas dudas, si necesitas mas ayuda puedes unirte al servidor de soporte.
+          </p>
+
+          <h1>Ayuda del bot</h1>
+
+          <p>Puedes usar el comando (e!help) para recibir información de algún comando.<br>
+            No es muy dificil aprender las funcionalidades del bot, ya que cuenta con una buena descripción
+            en cada comando a la hora de usarlo.</p>
+
+          <p id="addingthebot"><b>Importante:</b> Debe estar de acuerdo con nuetra politica del Bot y no exdeder al
+            uso de los comandos, pues pueden petar al Bot.<br> Use <span class="codeBlock">e!politica</span> para mayor información.</p>
+
+
+          <h2>Invitación al bot</h2>
+
+          <p id="commands">Para agregar el bot a su servidor <a href="https://discord.com/api/oauth2/authorize?client_id=1052036415678074941&permissions=8&scope=bot" target="_none">click
+              aquí.</a><br><br>Esto necesita que usted sea el propietario del servidor o que tenga "Permisos de Administración".</p>
+
+
+          <div id="anime" class="divider" style="width:24%; margin:30px 0;"></div>
+
+
+          <h1>Comandos</h1>
+          <div>Syntax:
+            <ul>
+              <li><span class="codeBlock">
+                  <>
+                </span> : Required Argument</li>
+              <li><span class="codeBlock">[ ]</span> : Optional Argument</li>
+              <li id="anime"><span class="codeBlock">( )</span> : Command Aliases</li>
+            </ul>
+          </div>
+
+          <h2>Interacción</h2>
+          <div>
+            <ul>
+              <li class="collapsible">Anime</li>
+              <div class="cmdCollapse">
+                Descripción : Vamos a buscar cualquier anime con la ayuda de una API confiable.
+                <br>
+                Usa : <span class="codeBlock">/search-anime < nombre de anime> </span>
+                <br>
+                Ejemplo : <span class="codeBlock">/search-anime < death note> </span>
+                <br>
+                Nota : El nombre de anime dado puede distinguir entre mayúsculas y minúsculas.
+              </div>
+              <li class="collapsible">Memes</li>
+              <div class="cmdCollapse">
+                Descripción : Proporciono memes aleatorios de internet.
+                <br>
+                Usa : <span class="codeBlock">e!meme </span>
+                <br>
+                Nota : Los memes actualmente son en ingles, pero se buscara una API en español.
+              </div>
+              <li class="collapsible">Waifus</li>
+              <div class="cmdCollapse">
+                Descripción : Te proporciono imagenes de Waifus anime.
+                <br>
+                Usa : <span class="codeBlock">e!waifus </span>
+                <br>
+                Nota : Por ahora este comando no contiene tags.
+              </div>
+              <li class="collapsible">Acciones</li>
+              <div class="cmdCollapse">
+                Description : Realiza acciones con otros usuarios.
+                <br>
+                Usa : <span class="codeBlock">/action < Tag> < @user> </span>
+                <br>
+                Ejemplo : <span class="codeBlock">/action < besar> < @Edgajuman></span>
+                <br>
+                Nota : Por ahora existen 6 Tags: Saludar, Abrazar, Besar, Pegar, Gritar y Morder.
+              </div>
+              <li class="collapsible" id="sfw">NSFW (Beta)</li>
+              <div class="cmdCollapse">
+                Descripción : Te proporciono imagenes de Waifus anime NSFW.
+                <br>
+                Usa : <span class="codeBlock">/nsfw < tag> </span>
+                <br>
+                Nota : Por ahora este comando esta en versión BETA y solo funciona en los canales que el Owner registre
+                en el Bot, puedes mandar el ID del canal en donde deseas que funcione el comando.
+                <br>
+
+            </ul>
+          </div>
+
+          <h2>Moderación</h2>
+          <ul>
+            <li>Syntax</li>
+            <div>
+              Todos los comandos aquí tienen la misma sintaxis. : <span class="codeBlock">/nombre-del-comando < @user></span>
+              <br>
+              <br><br>
+            </div>
+            <li>Comandos de Moderación</li>
+            <div> En algunos comandos de moderación, debe mencionar al usuario en concreto con quien usarlo.</div>
+            <div>
+              <ul>
+                <li><span class="codeBlock">/ban</span></li>
+                <li><span class="codeBlock">/mute</span></li>
+                <li><span class="codeBlock">/warn</span></li>
+                <li><span class="codeBlock">/report</span></li>
+                <li><span class="codeBlock">/kick</span></li>
+                <li><span class="codeBlock">/addrole</span></li>
+                <li><span class="codeBlock">/timeout</span></li>
+                <li><span class="codeBlock">/purge</span></li>
+                <li><span class="codeBlock">/deafen</span></li>
+                <li><span class="codeBlock">/move</span></li>
+                <li><span class="codeBlock">/vkick</span></li>
+                <li><span class="codeBlock">/vmute</span></li>
+                <li><span class="codeBlock">/slowmode</span></li>
+                <li><span class="codeBlock">/avatar</span></li>
+                <li><span class="codeBlock">/say</span></li>
+                <li><span class="codeBlock">/suggest</span></li>
+                <li><span class="codeBlock">/encuesta</span></li>
+                <li><span class="codeBlock">/crear-embed</span></li>
+                <li><span class="codeBlock">/discord-automod</span></li>
+                <li><span class="codeBlock">/autoresponder</span></li>
+                <li><span class="codeBlock">/delete-channels</span></li>
+              </ul>
+              <br>
+            </div>
+            <li>Otros comandos</li>
+            <ul>
+              <li><span class="codeBlock">/calculadora</span></li>
+              <li><span class="codeBlock">/imagine</span></li>
+              <li><span class="codeBlock">/ask</span></li>
+              <li><span class="codeBlock">/edit-text</span></li>
+              <li><span class="codeBlock">/levels</span></li>
+              <li><span class="codeBlock">/rank</span></li>
+            </ul>
+            <br>
+            <li>Utilidades</li>
+            <div>
+              <ul>
+                <li><span class="codeBlock">/youtube</span></li>
+                <li><span class="codeBlock">/twitch</span></li>
+                <li><span class="codeBlock">/diccionario-urban</span></li>
+                <li><span class="codeBlock">/img</span></li>
+                <li><span class="codeBlock">/giphy</span></li>
+                <li><span class="codeBlock">/invite</span></li>
+                <li><span class="codeBlock">/leaderboard</span></li>
+                <li><span class="codeBlock">/get_memes</span></li>
+                <li><span class="codeBlock">/create_meme</span></li>
+                <li><span class="codeBlock">e!jankenpon</span></li>
+                <li><span class="codeBlock">e!info</span></li>
+                <li><span class="codeBlock">e!soporte</span></li>
+                <li><span class="codeBlock">e!tirar dado</span></li>
+                <li><span class="codeBlock">e!ayudame edgabot</span></li>
+                <li><span class="codeBlock">e!mensaje developed</span></li>
+              </ul>
+
+          <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+          <h1 id="premium">Premium</h1>
+
+          <ul>
+
+            <li>El sistema de la versión PREMIUM aun esta en desarrollo.</li>
+            <!-- <li></li> -->
+          </ul>
+          <div class="doublespace"></div>
+          <div class="divider" style="width:24%; margin:30px 0;"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="../index.js"></script>
+  <script src="./commands.js"></script>
+</body>
+
+</html>
